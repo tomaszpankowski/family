@@ -1,13 +1,42 @@
 $prefix: "../../";
-$bg__error-img: $prefix+"img/error.jpg";
+$bg__about-img: 
+    $prefix+"img/about/about-s1.jpg",
+    $prefix+"img/about/about-s2.jpg";
 $bg__comingsoon-img: $prefix+"img/coming.jpg";
+$bg__contact-img: 
+    $prefix+"img/contact/contact-s1.jpg",
+    $prefix+"img/contact/contact-s2.jpg";
+$bg__error-img: $prefix+"img/error.jpg";
+$bg__gallery-img: 
+    $prefix+"img/gallery/gallery-s1.jpg",
+    $prefix+"img/gallery/gallery-s2.jpg";
+$bg__index-img: $prefix+"img/index/index-s1.jpg";
+$bg__login-img: $prefix+"img/contact/contact-s2.jpg";
+$bg__package-img: 
+    $prefix+"img/package/package-s1.jpg",
+    $prefix+"img/package/package-s2.jpg",
+    $prefix+"img/package/package-s3.jpg",
+    $prefix+"img/package/package-s4.jpg";
 $bg__privacy-img: $prefix+"img/privacy.jpg";
 $bg__init:
-    "error",
+    "about",
     "comingsoon",
+    "contact",
+    "error",
+    "gallery",
+    "index",
+    "login",
+    "package",
     "privacy";
 $classes_init:
-    $bg__error-img,
+    $bg__about-img,    
     $bg__comingsoon-img,
+    $bg__contact-img,
+    $bg__error-img,
+    $bg__gallery-img,
+    $bg__index-img,
+    $bg__login-img,
+    $bg__package-img,
     $bg__privacy-img;
 $footer-height: 57px;
+$text__shadow: 1px 1px 3px #333;
